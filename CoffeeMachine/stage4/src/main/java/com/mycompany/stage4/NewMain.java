@@ -52,6 +52,7 @@ public class NewMain {
     public static void buy() {
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
         int product = ler.nextInt();
+        DISP_CUPS -= 1;
         
         switch(product) {
             case 1:
