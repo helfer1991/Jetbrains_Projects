@@ -16,7 +16,7 @@ public class NewMain {
     /**
      * @param args the command line arguments
      */
-        static Scanner ler = new Scanner(System.in);
+    static Scanner ler = new Scanner(System.in);
     static int WATER = 400;
     static int MILK = 540;
     static int COFFEE = 120;
